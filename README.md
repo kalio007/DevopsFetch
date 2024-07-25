@@ -25,7 +25,7 @@ The DevOps Fetch Tool (`devopsfetch.sh`) is a comprehensive system information g
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/Mobey-eth/Hng_stage_5-midway-task.git
+   git clone <repo>
    cd devopsfetch
    ```
 

@@ -1,0 +1,15 @@
+[Unit]
+Description=DevOps Fetch Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/devopsfetch.sh -c
+Restart=on-failure
+User=root
+WorkingDirectory=/usr/local/bin
+StandardOutput=append:/var/log/devopsfetch.log
+StandardError=append:/var/log/devopsfetch.log
+
+[Install]
+WantedBy=multi-user.target
